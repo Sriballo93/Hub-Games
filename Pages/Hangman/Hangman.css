@@ -1,0 +1,294 @@
+
+  
+
+.fondo {
+    margin-top: 2rem;
+     border-radius: 80%;
+     display: flex;
+     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20vh;
+
+}
+
+
+.containtitle{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 100%;
+    width: 80%;
+    margin-top:18rem;
+    margin-left: 5rem;
+    height: 20vh;
+    background-color: rgba(1,
+    1, 1,  0.2);
+    border-radius: 10%;
+    font-size: 4vw;
+    
+}
+
+.containFoto{
+    height: 50vh;
+}
+
+
+@media (max-width: 670px) {
+    
+.containtitle{
+    margin-bottom: 1.5rem;
+    width: 80vw;
+    margin-right: 4rem;
+}
+
+
+}
+.containtitle h1{
+    font-family: var(--fontPrimary);
+}
+
+.containerblocks{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 80%;
+    gap:2rem;
+
+
+    
+}
+
+@media (max-width: 670px) {
+    .containerblocks{
+        font-family: var(--fontPrimary);
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        width: 90vw;
+      
+
+       
+    }
+   
+    .containscore{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .fondo{
+        height:55vh;
+    }
+}
+.containApp{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 80vw;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-right: 6rem;
+    margin-top: 6rem;
+
+}
+
+
+@media (max-width:670px) {
+
+    .containApp{
+        font-family: var(--fontPrimary);
+        height: 79vh;
+        margin: -1rem;
+
+    }
+   
+
+}
+
+.containscore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+@media (max-width: 670px) {
+
+    .containscore{
+    
+    font-size: 1rem;
+    
+    gap: 1rem;
+    }
+
+    .wins{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+}
+
+.btn{
+    height: 3vh;
+    width: 4vw;
+    border: double 1px ;
+    background-color: rgba(1, 1, 1,  0.2);
+}
+
+@media (max-width: 670px) {
+   
+    .btn{
+        width: 2.3rem;
+        height: 1.5rem;
+        text-align: center;
+    }
+    }
+    
+
+.containspan{
+    text-align: center;
+}
+
+@media (max-width: 670px) {
+   
+.containspan{
+    width: 30vw;
+    display: flex; 
+    text-align: center;
+}
+
+}
+
+
+#myphoto{
+    width: 30vw;
+    height:60vh;
+
+    border-radius: 25%;
+}
+
+@media (max-width: 670px) {
+   .containFoto{
+   width: 60vw;
+   height: 20vh;
+   }
+
+   #myphoto{
+    height: 30vh;
+    width: 100%;
+   }
+    }
+    
+.containbtn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+   
+    gap: 0.2rem;
+   
+
+}
+
+@media (max-width: 670px) {
+   
+    .containbtn{
+        display: flex;
+       height: 20vh;
+       width: 12.5rem;
+     
+        
+     
+    }
+    }
+
+.btnRandom{
+    width:100px;
+    border-radius: 4px;
+
+}
+
+
+@media (max-width: 670px) {
+   
+    .btnRandom{
+        position: relative;
+        width: auto;
+        font-family: var(--fontPrimary);
+        font-weight: bolder;
+        border: 2px double;
+        border-radius: 15%;
+        
+    }
+    }
+ .containspan > .spanletter{
+    font-size: 6vw;
+    text-align: center;
+    font-weight: 900;
+    margin: 0rem 0.5rem;
+    width: 100px;
+    
+}
+
+@media (max-width: 670px) {
+   
+    .spanletter{
+        position: relative;
+        font-size: 0.25rem;
+        right: 2rem;
+    }
+    }
+
+.reset{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+@media (max-width: 670px) {
+   
+    .btnReset{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        font-family: var(--fontPrimary);
+        font-weight: bolder;
+
+    }
+
+    .wins{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 1rem;
+        position: relative;
+        bottom: 2rem;
+    }
+
+    .reset{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+}
+
+.lose{
+    height: 100px;
+}
+
+.btnTry{
+    height: 100px;
+    width: 200px;
+}
+

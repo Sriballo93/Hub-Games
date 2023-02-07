@@ -1,0 +1,159 @@
+*{
+  padding: 0;  
+}
+
+.btnContainer{
+    display: grid;
+    grid-template-columns:130px 130px 130px;
+    grid-gap: 0.2rem;
+
+}
+
+.btnContainer button{
+    height: 130px;
+    width: 130px;
+    border: double coral;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: none;
+
+}
+
+.tictacgame{
+    display: flex;
+   gap: 1rem;
+    
+}
+
+.tictacheader{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fontPrimary);
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    gap: 2rem;
+}
+
+#resetGame{
+    border-radius: 10%;
+    height: 10vh;
+    width: 15vw;
+    border: none;
+    padding: 1rem 1.25rem;
+    font-family: var(--fontPrimary);
+    font-weight: bolder;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+@media (max-width: 667px) {
+    
+.tictacgame{
+    width: 80%;
+    height: 40%;
+    margin-top: 3rem;
+    
+}
+
+.btnContainer{
+    display: grid;
+    grid-template-columns:70px 70px 70px;
+    grid-gap: 0.2rem;
+
+}
+
+.btnContainer button{
+    height: 70px;
+    width: 70px;
+
+
+
+}
+
+.tictacheader{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fontPrimary);
+    font-size: 1rem;
+    margin-top: 4rem;
+   
+}
+#resetGame{
+    border-radius: 10%;
+    height: 13vh;
+    width: 25vw;
+    text-align: center;
+    border: none;
+
+    font-family: var(--fontPrimary);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+}
+}
+
+
+@media (min-width:667) and (max-width: 768px) {
+    
+    .tictacgame{
+        width: 80%;
+        height: 60%;
+        margin-top: 3rem;
+        
+    }
+    
+    .btnContainer{
+    
+        grid-template-columns:80px 80px 80px;
+        grid-gap: 0.2rem;
+       
+    
+    }
+    
+    .btnContainer button{
+        height: 80px;
+        width: 80px;
+    
+    
+    
+    }
+    
+    .tictacheader{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--fontPrimary);
+        font-size: 2rem;
+       
+       
+    }
+
+    #resetGame{
+    border-radius: 10%;
+    height: 20vh;
+    width: 40vw;
+    text-align: center;
+    border: none;
+    font-family: var(--fontPrimary);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    
+}
+    
+
+    }
+    
+    
+    
+    
+
+

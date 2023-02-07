@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.login{
+   
+    padding: -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size:2rem;
+}
+@media (max-width: 667px) {
+    
+
+    .login
+    {
+        margin-top: 3rem;
+    }
+}
+
+
+.login img:nth-child(1){
+    height: 10vhpx;
+    width: 10vw;
+    border-radius: 20px;
+    border: 2px solid #831e21;
+}
+
+.login img:nth-child(2){
+    height: 10vhpx;
+    width: 20vw;
+}
+
+.login input{
+    border: none;
+    border-bottom: 2px solid rgb(46, 46, 63);
+    width: 20vw;
+    height: 5vh;
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    text-align: center;
+    background-color: #DF555A;
+}
+
+.login button{
+    height: 3rem;
+    width: 8rem;
+    font-size: 2rem;
+    border: 2px solid #831e21;
+    background-color: none;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+ div > img{
+    margin-top: 1rem;
+    
+} 
+ 
+#loginBtn{
+    background-color: #DF555A;
+}

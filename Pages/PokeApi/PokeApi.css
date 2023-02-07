@@ -1,0 +1,349 @@
+#app{
+    padding: 0;
+
+}
+
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 2rem;
+
+}
+
+.gallery{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #f7d871ad;
+    border-radius: 24px;
+    padding: 1rem;
+    border: 10px solid #365DA0 ;
+  
+    border-style: groove;
+}
+
+nav > button{
+    border-radius: 40%;
+    font-weight: bolder;
+    height: 32px;
+    width:85px;
+    transition: 1s ease-in-out;
+
+   
+}
+
+.header{
+    display: flex;
+    align-items: center;
+justify-content: center;
+
+height: 3rem;
+}
+
+
+.pokeapi{
+    height: 6rem;
+    width: 13rem;
+    
+}
+
+.container{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.water{
+    background-image: url(/Icons/water.png);
+
+}
+
+.fire{
+    background-image: url(/Icons/fire.png);
+ 
+}
+
+.electric{
+    background-image: url(/Icons/electric.png);
+ 
+}
+
+.psychic{
+    background-image: url(/Icons/psyquic.png);
+}
+
+.fighting{
+    background-image: url(/Icons/fighting.png);
+}
+
+.ghost{
+    background-image: url(/Icons/ghost.png);
+}
+.dragon{
+    background-image: url(/Icons/dragon.png);
+}
+
+.rock{
+    background-image: url(/Icons/rock.png);
+}
+
+.ground{
+    background-image: url(/Icons/ground.png);
+}
+
+.normal{
+    background-image: url(/Icons/normal.png);
+}
+
+.grass{
+    background-image: url(/Icons/grass.jpg);
+}
+.bug{
+    background-image: url(/Icons/bug.png);
+}
+.fairy{
+    background-image: url(/Icons/fairy.png);
+}
+
+.ice{
+    background-image: url(/Icons/ice.png);
+}
+
+.poison{
+    background-image: url(/Icons/poison.png);
+}
+
+
+.imgPokemon{
+    transform: scale(1.7);
+   position: relative;
+   bottom: 3rem;
+   
+}
+
+.card_title{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    width: 80%;
+    margin-left: 2rem;
+    justify-content: space-around;
+    position: relative;
+    bottom: 4.5rem;
+    background-color: rgba(240, 255, 255, 0.432);
+    filter: blur(50%);
+}
+
+.info_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    position: relative;
+   bottom: -1rem;
+    
+}
+
+.container > div{
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+}
+
+.info_container  div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 2rem;
+    text-transform: capitalize;
+    
+}
+
+.info_container  div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 2rem;
+    text-transform: capitalize;
+}
+.info_container  div:nth-child(3){
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin-left: 1.2rem;
+    width: 85%;
+}
+
+.card_title > p{
+    background-color: rgba(240, 255, 255, 0.233);
+    filter: blur(50%);
+    text-shadow: rgba(173, 170, 182, 0.555) 4px 0 10px;
+}
+    
+.pokebtn{
+    background-size: cover;
+    height: 30px;
+    width:85px;
+    border: none;
+    background-repeat:no-repeat  ;
+    border-radius: none;
+    border: 2px double rgba(68, 49, 7, 0.63);
+}
+
+
+.waterbtn{
+    background-image: url(../../public/Icons/agua.png);
+}
+
+
+.firebtn{
+    background-image: url(../../public/Icons/firebtn.png);
+}
+
+.grassbtn{
+    background-image: url(../../public/Icons/plantabtn.png);
+}
+
+
+.poisonbtn{
+    background-image: url(../../public/Icons/veneno.png);
+}
+
+.electricbtn{
+    background-image: url(../../public/Icons/electrico.png);
+}
+
+.bugbtn{
+    background-image: url(../../public/Icons/bugbtn.png);
+}
+
+.normalbtn{
+    background-image: url(../../public/Icons/normalbtn.png);
+}
+
+.grassbtn{
+    background-image: url(../../public/Icons/plantabtn.png);
+}
+
+.groundbtn{
+    background-image: url(../../public/Icons/tierra.png);
+}
+
+.fairybtn{
+    background-image: url(../../public/Icons/hadabtn.png);
+}
+
+.psychicbtn{
+    background-image: url(../../public/Icons/psiquico.png);
+}
+
+.rockbtn{
+    background-image: url(../../public/Icons/roca.png);
+}
+
+.icebtn{
+    background-image: url(../../public/Icons/hielobtn.png);
+}
+
+.dragonbtn{
+    background-image: url(../../public/Icons/dragonbtn.png);
+}
+.icebtn{
+    background-image: url(../../public/Icons/hielobtn.png);
+}
+.fightingbtn{
+    background-image: url(../../public/Icons/luchabtn.png);
+}
+
+.ghostbtn{
+    background-image: url(../../public/Icons/fantasma.png);
+}
+
+
+.All{
+    background-image: url(../../public/Icons/allbtn.png);
+    background-size: cover;
+    height: 32px;
+    width:85px;
+    border: none;
+    background-repeat:no-repeat  ;
+    border-radius: none;
+    border: 1px solid rgb(16, 14, 4);
+    
+}
+
+
+.container>div{
+    transition: 1s ease-in-out;
+}
+
+.container >div:hover{
+    transform: rotate(3deg);
+    transition: 1s ease-in-out;
+}
+
+nav > button:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+#searchInput{
+    width: 250px;
+    height: 40px ;
+align-self: center;
+text-align: center;
+background-color: #FECA1B;
+border-radius: 24px;
+padding: 1rem;
+border: 10px solid #365DA0 ;
+border-style: groove;
+
+}
+
+#searchInput:placeholder-shown{
+    font-weight: bolder;
+    color: #102549;
+}
+
+div > p {
+    font-size: 2rem;
+    font-weight: bolder;
+} 
+
+.pokemon{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23rem;
+    width: 16.5rem;
+    border-radius: 10px;
+}
+

@@ -9,6 +9,7 @@
     align-items: center;
     gap: 2rem;
     font-size:2rem;
+    font-family: var(--fontPrimary);
 }
 @media (max-width: 667px) {
     
@@ -25,11 +26,13 @@
     width: 10vw;
     border-radius: 20px;
     border: 2px solid #831e21;
+    filter: drop-shadow(2px 1px 3px black);
 }
 
 .login img:nth-child(2){
     height: 10vhpx;
     width: 20vw;
+    filter: drop-shadow(1px 1px 2px black);
 }
 
 .login input{
@@ -42,6 +45,7 @@
     font-size: large;
     text-align: center;
     background-color: #DF555A;
+    filter: drop-shadow(2px 1px 3px black);
 }
 
 .login button{
@@ -52,10 +56,12 @@
     background-color: none;
     font-weight: bolder;
     border-radius: 15px;
+    font-family: var(--fontPrimary);
+    filter: drop-shadow(2px 1px 3px black);
 }
 
  div > img{
-    margin-top: 1rem;
+ margin-top: 1.25rem;
     
 } 
  

@@ -57,18 +57,21 @@
     height: 40%;
     margin-top: 3rem;
     
+    
 }
 
 .btnContainer{
     display: grid;
     grid-template-columns:70px 70px 70px;
     grid-gap: 0.2rem;
+    
 
 }
 
 .btnContainer button{
     height: 70px;
     width: 70px;
+    filter: drop-shadow(5px 5px 15px black);
 
 
 
@@ -133,6 +136,7 @@
         justify-content: center;
         font-family: var(--fontPrimary);
         font-size: 2rem;
+        
        
        
     }
@@ -146,13 +150,19 @@
     font-family: var(--fontPrimary);
     font-weight: bolder;
     font-size: 1.2rem;
+    filter: drop-shadow(5px 5px 15px black);
     
 }
     
 
     }
     
-    
+  
+
+    .btnReset{
+        width: 3rem;
+        border-radius: 10px;
+    }
     
     
 

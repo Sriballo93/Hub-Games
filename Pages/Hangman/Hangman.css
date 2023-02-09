@@ -11,6 +11,7 @@
     align-items: center;
     width: 90%;
     height: 20vh;
+    font-family: var(--fontPrimary);
 
 }
 
@@ -22,19 +23,20 @@
     justify-content: center;
     align-content: center;
     font-size: 100%;
-    width: 80%;
+    width: 100%;
     margin-top:18rem;
     margin-left: 5rem;
     height: 20vh;
     background-color: rgba(1,
     1, 1,  0.2);
-    border-radius: 10%;
     font-size: 4vw;
+    text-shadow: 2px 2px 10px black;
     
 }
 
 .containFoto{
     height: 50vh;
+    filter: drop-shadow(2px 1px 3px black);
 }
 
 
@@ -98,6 +100,7 @@
     gap: 0.6rem;
     margin-right: 6rem;
     margin-top: 6rem;
+    
 
 }
 
@@ -144,6 +147,7 @@
     width: 4vw;
     border: double 1px ;
     background-color: rgba(1, 1, 1,  0.2);
+    filter: drop-shadow(2px 1px 3px black);
 }
 
 @media (max-width: 670px) {
@@ -152,6 +156,7 @@
         width: 2.3rem;
         height: 1.5rem;
         text-align: center;
+        color: black;
     }
     }
     
@@ -194,7 +199,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 40vw;
-   
     gap: 0.2rem;
    
 
@@ -215,6 +219,11 @@
 .btnRandom{
     width:100px;
     border-radius: 4px;
+    font-family: var(--fontPrimary);
+    height: 4vh;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    background-color: none;
 
 }
 
@@ -264,8 +273,8 @@
         flex-direction: column;
         font-family: var(--fontPrimary);
         font-weight: bolder;
-
-    }
+        
+        };
 
     .wins{
         display: flex;
@@ -274,13 +283,24 @@
         gap: 1rem;
         position: relative;
         bottom: 2rem;
-    }
+    };
 
     .reset{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-    }
+    };
+}
+
+.btnReset{
+  
+        font-family: var(--fontPrimary);
+        height: 4vh;
+        width: 15vw;
+        font-weight: bolder;
+        font-size: 1.5rem;
+
+    
 }
 
 .lose{
@@ -292,3 +312,6 @@
     width: 200px;
 }
 
+.btn{
+    border-radius: 10px;
+}

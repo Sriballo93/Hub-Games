@@ -13,7 +13,7 @@ export const template = () => `
 <section id="hubGames">
     <button class="hangman"><img class="hangmanfoto" src="../../public/Icons/elahorcado.gif" alt="juegoahorcado"/>
     </button>
-    <button id="pokeapi"> <img class="hangmanfoto" src="../../public/Icons/pokeapilogo.png"   alt="pokemongame"/>
+    <button id="pokeapi"> <img class="hangmanfoto" src="../../public/Icons/pikachu.gif"   alt="pokemongame"/>
     </button>
     <button class="tictac"><img class="hangmanfoto" src="../../public/Icons/tictac.gif" alt="juegoahorcado"/>
     </button>

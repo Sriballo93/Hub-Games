@@ -9,7 +9,6 @@ let win;
 
 export const template = () => `
 <div class="tictacgame">
-
 <div class="tictacheader">
     <h1> Tic Tac Toe</h1>
 <h3> Who will win the next round?</h3>
@@ -35,8 +34,6 @@ export const template = () => `
 export const printTemplate = () => {
   
     document.querySelector("#app").innerHTML = template();
-        // createBtn();
-       
         getposicion1();
         getposicion2();
         getposicion3();
@@ -176,13 +173,7 @@ export const printTemplate = () => {
  })
  }
 
- 
 
-
-
-
-
- 
  let mywinner =document.querySelector('#winner');
  export const checkForWinner=()=>{
 

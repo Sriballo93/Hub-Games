@@ -96,8 +96,19 @@ const createBtn =()=>{
                 
             }
             if(aciertos == word.length){
-                Swal.fire(
-                    `Has ganadoooo!!`);
+                Swal.fire({
+                    title: '<strong>¡¡You Win!!</strong>',
+                    html:
+                      '<img class="lose" src="../../public/Icons/ahorcadoganado.gif" alt="logoloose"> ',
+                    showCloseButton: true,
+                    focusConfirm: false,
+                    height:500,
+                    padding: '3em',
+                    color: '#716add',
+                    confirmButtonText:
+                      '<i ></i> Try Again!',
+                    
+                  });
                     const mybtnsAll=document.querySelectorAll('.btn');
                     for (const onebtn of mybtnsAll) {
                         onebtn.disabled=true;

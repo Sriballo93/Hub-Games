@@ -7,14 +7,20 @@ header{
     width: 4rem ;
     height: 100%;
     margin-bottom: 1.2rem;
+    filter: drop-shadow(2px 2px 5px black);
 
 }
 
 .goback > img {
  height: 90%;
  width: 90%;
+ filter: drop-shadow(5px 5px 5px black);
 
  
+}
+
+.headerhub{
+    text-shadow: 0.5px 1px 2px black;
 }
 
 .headercontainer{
@@ -37,6 +43,15 @@ header{
  background: none;
  border:none;
  
+ 
+
+ 
+}
+
+.logout{
+    height: 40px;
+    width:50px;
+    filter: drop-shadow(1px 1px 2px black);
 }
 
 @media (max-width: 670px) {
@@ -50,17 +65,20 @@ header{
 
     .colorchange {
        transition: 1s ease-in-out;
+       
      
     }
    
         .logout{
             height: 5vh;
             width:10vw ;
+            filter: drop-shadow(1px 1px 2px black);
         }
 
         .goback{
             height: 5vh;
             width: 10vw;
+            filter: drop-shadow(2px 2px 5px black);
         }
 
 }
